@@ -97,10 +97,24 @@ nav a {
   border: 1px solid #fd6e0a;
 }
 /* main section styles */
+main{
+  max-width: 900px;
+  margin: 0px auto;
+}
 .about {
-  margin: 130px 15vw;
-  padding: 130px 150px;
+  margin: 130px 0;
+  padding: 50px 130px;
   border-radius: 10px;
   background: #fff8f3;
+  /* max-width: 1140px; */
 
+}
+.about-info-container{
+  display:flex;
+  justify-content: space-between;
+
+}
+.about-info{
+  text-align: center;
+  
 }
