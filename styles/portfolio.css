@@ -97,8 +97,8 @@ nav a {
   border: 1px solid #fd6e0a;
 }
 /* main section styles */
-main{
-  max-width: 900px;
+main {
+  max-width: 1140px;
   margin: 0px auto;
 }
 .about {
@@ -107,14 +107,29 @@ main{
   border-radius: 10px;
   background: #fff8f3;
   /* max-width: 1140px; */
-
 }
-.about-info-container{
-  display:flex;
+.about-info-container {
+  display: flex;
   justify-content: space-between;
-
 }
-.about-info{
+.about-info {
   text-align: center;
-  
+}
+#what-i-do {
+  padding: 30px 150px;
+}
+.skills-container {
+  display: flex;
+  justify-content: space-around;
+}
+.skills {
+  text-align: center;
+  width: 220px;
+  height: 350px;
+  flex-shrink: 0;
+  border-radius: 10px ;
+  border: 1px solid grey;
+  /* box-shadow: 5px 5px 15px grey; */
+  padding: 20px 10px 0 10px;
+  margin-bottom: 20px;
 }
