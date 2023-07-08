@@ -7,7 +7,6 @@ body {
   text-align: center;
   font-size: 35px;
   font-weight: 700;
-  margin-top: 130px;
 }
 .section-description {
   color: #757575;
@@ -26,7 +25,6 @@ nav {
 
 .nav-title {
   color: #181818;
-  font-family: Open Sans;
   font-size: 45px;
   font-weight: 800;
 }
@@ -41,7 +39,7 @@ nav li {
   list-style: none;
   margin-left: 50px;
   font-size: 20px;
-  font-style: normal;
+  
   font-weight: 400;
 }
 nav a {
@@ -60,12 +58,12 @@ nav a {
 /* header style */
 .header {
   background: #fff8f3;
-  background-image: url("../images/header_bg.png");
+  background-image: url("../images/header_bg.png"), url('../images/bg2.png');
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: bottom right,top left;
 }
 .banner {
-  padding: 30px 10px 0px 100px;
+  padding: 30px 30px 0px 150px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -73,25 +71,24 @@ nav a {
 .banner-content {
   max-width: 500px;
 }
+
+.profile-pic {
+  width: 500px;
+}
+
 .banner-greeting {
   color: #474747;
   font-size: 45px;
   margin-bottom: 0;
 }
 .banner-title {
-  color: var(--dark-01, #181818);
+  color: #181818;
   font-size: 85px;
   font-weight: 700;
   margin-top: 5px;
   margin-bottom: 20px;
 }
-.banner-description {
-  font-style: normal;
-}
 
-.profile-pic {
-  width: 500px;
-}
 .contact {
   background-color: #fff8f3;
   color: #fd6e0a;
@@ -104,14 +101,14 @@ main {
 }
 .about {
   margin: 130px 0;
-  padding: 50px 130px;
+  padding: 130px;
   border-radius: 10px;
   background: #ffe7d5;
   /* max-width: 1140px; */
 }
 .about-info-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .about-info {
   text-align: center;
@@ -170,4 +167,29 @@ main {
 .button-cv{
   text-align: center;
   margin-top: 50px;
+}
+/* footer styles here  */
+.footer{
+  display:flex;
+  gap: 110px;
+  padding: 130px 200px;
+  margin-top: 100px;
+  background: #fff0e5;
+}
+.footer-column {
+  width: 50%;
+}
+.social-links{
+  text-align: center;
+}
+.form input[type="text"], input[type="email"], textarea{
+  display:block;
+  width: 90%;
+  color: #474747;
+  background-color: white;
+  border: 0;
+  padding: 18px 35px;
+  margin-bottom: 25px;
+  font-family: "Open Sans";
+
 }
